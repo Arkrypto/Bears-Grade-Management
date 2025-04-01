@@ -20,7 +20,7 @@ func main() {
 	r.LoadHTMLGlob("templates/*")
 
 	// 处理静态资源
-	r.Static("/static", "./static")
+	//r.Static("/static", "./static")
 
 	// 访问首页
 	r.GET("/", func(c *gin.Context) {
