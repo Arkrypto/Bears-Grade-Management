@@ -20,14 +20,6 @@ type StudentWithSubjectTag struct {
 	Grades map[string]float64
 }
 
-func GradesWithSubjectTag(grades map[int]float64) map[string]float64 {
-	gradesWithSubjectTag := make(map[string]float64, len(grades))
-	for key, value := range Subjects {
-		gradesWithSubjectTag[value] = grades[key]
-	}
-	return gradesWithSubjectTag
-}
-
 func GetSum(grades map[int]float64) float64 {
 	var sum = 0.0
 	for _, grade := range grades {
@@ -58,14 +50,6 @@ func GetLibSum(grades map[int]float64) float64 {
 	sum += grades[8]
 	sum += grades[9]
 	return sum
-}
-
-func NilStudent() Student {
-	return Student{
-		ID:     -1,
-		Name:   "",
-		Gender: -1,
-	}
 }
 
 func NilStudentWithGrades() StudentWithGrades {
