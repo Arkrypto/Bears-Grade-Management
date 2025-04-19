@@ -5,8 +5,8 @@ date: 2021-11-15
 
 成绩管理系统
 
-- [Java Spring 版本](https://github.com/northboat/Performance-Management/blob/main/java/README.md)：基于 SpringBoot、BootStrap、Thymeleaf 的成绩管理系统
-- [Go Gin 版本](https://github.com/northboat/Performance-Management/blob/main/go/README.md)：基于 Gin、MySQL、Redis 的成绩管理系统后端
+- [Java Spring 版本](https://github.com/northboat/Grade-Management/blob/main/backend-java/README.md)：基于 SpringBoot、BootStrap、Thymeleaf 的成绩管理系统
+- [Go Gin 版本](https://github.com/northboat/Grade-Management/blob/main/backend-go/README.md)：基于 Gin、MySQL、Redis 的成绩管理系统后端
 
 主要功能
 
