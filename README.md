@@ -17,3 +17,5 @@ date: 2021-11-15
 - 分科目的排名文件生成
 
 Java Spring 版本用于 Jenkins 的自动化部署测试：[Jenkins | Arkrypto's Wiki](https://arkrypto.github.io/pages/ceab3a/)
+
+钩子测试 1️⃣
